@@ -1,6 +1,6 @@
 body {
-    background-color: blue;
-    color: white;
+    background-color: blanchedalmond;
+    color: black;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
     width: 600px;
     height: 700px;
     padding: 20px;
-    background-color: #00008B;
+    background-color: gray;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5%;
 }
