@@ -1,0 +1,48 @@
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.informacoes {
+    flex: 1;
+}
+
+.informacoes h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.informacoes p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.avaliacoes {
+    margin-top: 10px;
+}
+
+.avaliacoes h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.avaliacoes p {
+    margin: 5px 0;
+    font-style: italic;
+    text-align: center;
+}
