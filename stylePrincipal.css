@@ -113,3 +113,7 @@ body {
   .container, .container-lg, .container-md, .container-sm, .container-xl.carouselExampleAutoplaying{
     text-align: center;
   }
+
+  .lista-cadastro li{
+    margin-top: 	20px;
+  }
