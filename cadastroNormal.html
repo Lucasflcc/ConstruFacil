@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Trabalhador</title>
     <link rel="stylesheet" href="styleTrab.css">
+    <script src="https://parseapi.back4app.com/js/3/parse.min.js"></script>
 </head>
 <body>
     <h1>ConstruFacil</h1>
@@ -13,14 +14,15 @@
             <h1>Cadastrar</h1>
             <form action="#">
                 <label for="input-nome">Nome</label>
-                <input type="text" placeholder="Seu nome">
+                <input type="text" placeholder="Seu nome" id="input-nome">
                 <label for="input-email">Email</label>
                 <input type="email" placeholder="Email" required id="input-email"/>
                 <label for="input-password">Senha</label>
                 <input type="password" placeholder="Senha" required id="input-password"/>
-                <button type="button" value="Entrar" class="btn" id="btn-login">Cadastrar</button>
+                <button type="button" value="Entrar" class="btn" id="btn-cadastrar">Cadastrar</button>
             </form>
         </div>
     </div>
+    <script src="src/cadastroNormal.js"></script>
 </body>
 </html>
