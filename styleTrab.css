@@ -79,12 +79,12 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: rgb(173, 173, 173);
 }
 
 h1 a {
     font-size: 40px; 
     text-decoration: none; 
-    color: rgb(128, 128, 128); 
+    color: rgb(0, 0, 0); 
 }
 
