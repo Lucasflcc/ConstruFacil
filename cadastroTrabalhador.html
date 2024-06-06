@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro Trabalhador</title>
+    <script src="src/cadastroTrabalhador.js"></script>
+    <script src="https://parseapi.back4app.com/js/3/parse.min.js"></script>
     <link rel="stylesheet" href="styleTrab.css">
 </head>
 <body>
-    <h1>ConstruFacil</h1>
+    <h1><a href="index.html">ConstruFacil</a></h1>
     <div class="outer-container">
-        <div class="container">
+        <div class="container2">
             <h1>Cadastrar</h1>
             <form action="#">
                 <label for="input-email">Email</label>
@@ -18,12 +20,14 @@
                 <input type="password" placeholder="Senha" required id="input-password"/>
                 <label for="input-trabalho">Profissão</label>
                 <input type="text" placeholder="Profissão de trabalho" required id="input-trabalho"/>
-                <label for="input">Formação (opicional)</label>
+                <label for="input-orcamento">Orçamento médio</label>
+                <input type="text" value="R$ 0,00" required id="input-orcamento"/>
+                <label for="input">Formação (opcional)</label>
                 <input type="text" placeholder="Formação se tiver"  id="input-formação"/>
-                <label for="mensage">Descrição do seu trabalho ou de vc mesmo</label>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Pequena descrição sobre seu trabalho"
+                <label for="message">Descrição do seu trabalho ou de você mesmo</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Pequena descrição sobre seu trabalho"
                  required></textarea>
-                <button type="button" value="Entrar" class="btn" id="btn-login">Cadastrar</button>
+                <button type="button" class="btn" id="btn-login">Cadastrar</button>
             </form>
         </div>
     </div>
